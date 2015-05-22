@@ -34,8 +34,19 @@
 ***The original project is currently breaking on Windows due to references in the various socket.io/engine.io projects back to old versions of ws.  I forked the socket.io/engine.io projects, updated the references to use latest ws and pointed this forked browser-sync at the updated socket.io and it works for me again on Windows.  This has been an open issue for a while and doesn't seem to be getting much attention.***
 
 ***See:***
-(https://github.com/Automattic/socket.io/issues/2056#issuecomment-104475530)
-(https://github.com/Automattic/socket.io/issues/2114)
+
+* (https://github.com/Automattic/socket.io/issues/2056#issuecomment-104475530)
+* (https://github.com/Automattic/socket.io/issues/2114)
+
+```sh
+npm install -g browser-sync-x
+```
+
+or
+
+```sh
+npm install --save browser-sync-x
+```
 
 
 ## Features
